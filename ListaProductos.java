@@ -23,7 +23,7 @@ public class ListaProductos{
         case 1:
         System.out.println("Ingresa los productos que te gustaria tener en la lista: ");
         for(int p=0;p <5;p++){
-        System.out.println("producto"+(p+1)+":");
+        System.out.println("producto "+ (p+1)+ ": ");
         String producto = sc.nextLine();
         Shopppinglist.add(producto);
         }
